@@ -11,6 +11,13 @@ CREATE TABLE IF NOT EXISTS listado_clientes(
 		PRIMARY KEY (id)
 )  ENGINE=INNODB;
 
+INSERT INTO listado_clientes (email,name,city,telephone)
+VALUES
+	("Angel@gmail.com","Angel","Bogota",3002004240),
+	("Fede@gmail.com","Federico","Medellin",4002003443),
+	("Suzan@gmail.com","Suzan","Mexico",2001003113);
+
+
 CREATE TABLE IF NOT EXISTS users(
 		id INT AUTO_INCREMENT,
 		user VARCHAR(255) NOT NULL,
