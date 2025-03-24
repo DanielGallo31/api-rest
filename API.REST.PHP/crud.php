@@ -131,10 +131,10 @@ if(isset($_POST['form'])){
         <!-- nav -->
         <div class="my-nav">
             <div>
-                <h1>Bienvenido, <?php echo $_SESSION['username']; ?></h1>
+                <h1>Welcome, <?php echo $_SESSION['username']; ?></h1>
             </div>
             <div>
-                <a href="logout.php">Cerrar sesión</a>
+                <a href="logout.php">Log Out</a>
             </div>
         </div>
         <!-- nav -->
