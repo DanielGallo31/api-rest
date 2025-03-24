@@ -1,5 +1,5 @@
 # PHP Exercises
- - The exercise have with an authentication with sql, and a static sample authentication default. 
+ - The exercise have an authentication with sql, and a static sample authentication default. 
  
     user: Damian. Pass:12345;
 
