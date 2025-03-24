@@ -1,0 +1,42 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.login-screen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-screen div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.alert {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 2px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    color: white;
+    display: flex;
+}
+.bg-danger{
+    background-color: rgb(232, 86, 86);
+}
+.btn-black{
+    padding-inline: 10px;
+    padding-block: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.btn-md{
+    padding-inline: 4px;
+    padding-block: 0px;
+    border-radius: 5px;
+}
