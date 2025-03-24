@@ -1,9 +1,9 @@
 # PHP Exercises
- - The exercise have with an authentication with sql, and a static sample authentication default. 
+ - The exercise have an authentication with sql, and a static sample authentication default. 
  
     user: Damian. Pass:12345;
 
- - You don't need installing nothing extra like libraries to try this exercise, you only need a PHP server workspace and a MySql server workespace, that's all that you need.
+ - You don't need installing nothing extra like libraries to test this exercise, you only need a PHP server workspace and a MySql server workespace, that's all that you need.
 
  - Extra recomended is verificate sql configuration acording your machine. (/includes/Database.class.php)
 
