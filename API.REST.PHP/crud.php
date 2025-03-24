@@ -168,7 +168,7 @@ if(isset($_POST['form'])){
                                     <td><div><?php echo "{$person['city']}" ?></div></td>
                                     <td><div><?php echo "{$person['email']}" ?></div></td>
                                     <td><div><?php echo "{$person['telephone']}" ?></div></td>
-                                    <form action="./" method="post" >
+                                    <form action="crud.php" method="post" >
                                         <input type="hidden" name="edit_id" value=<?php echo $person["id"]; ?>>
                                         <td> <button class="btn-black btn-sm" type="submit" name="opts">&#8594;</button></td>
                                     </form>
