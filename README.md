@@ -1,4 +1,4 @@
-# PHP Excersices
+# PHP Exercises
  - The exercise have with an authentication with sql, and a static sample authentication default. user: Damian. Pass:12345;
  - You don't need installing nothing extra like libraries to try this exercise, only need a PHP server workspace, it's all that you need.
  - The exercises allows to Get, Edit, Delete and Update data registers about persons
