@@ -15,25 +15,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = "Credenciales incorrectas.";
     }
 }
-/* require_once 'includes/User.class.php';
+/* 
+require_once 'includes/User.class.php';
 session_start();
-$user = new User;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
     $username = $_POST['username'];
     $password = $_POST['password'];
-    ob_start(); 
-    $user->get_user($username,$password);
-    $json = ob_get_clean(); 
-    $array = json_decode($json, true);
-    if (count($array)>0) {
+
+    $user = new User;
+    $json = json_decode($user->get_user($username,$password),true);
+
+    if (count($json)>0) {
         $_SESSION['logged_in'] = true;  
-        $_SESSION['username'] = $username;  
-        header('Location: crud.php');  
+        $_SESSION['username'] = $username;
+        header('Location: crud.php'); 
         exit();
     } else {
         $error = "Credenciales incorrectas.";
     }
-} */
+}
+*/
 ?>
 
 <!DOCTYPE html>
@@ -55,13 +57,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <?php endif;?>
         </div>
             <div>
-                <input type="text" name="username" placeholder="Usuario" required>
+                <input type="text" name="username" placeholder="User" required>
             </div>
             <div>    
-                <input type="password" name="password" placeholder="Contraseña" required>
+                <input type="password" name="password" placeholder="Password" required>
             </div>
             <div>
-                <button class="btn-black btn-md" type="submit">Iniciar sesión</button>
+                <button class="btn-black btn-md" type="submit">Log in</button>
             </div>
         </form>
     </div>
