@@ -67,13 +67,13 @@ function get_people_data($pUser){
 function validate ($userName,$userCity,$userPhoneNumber,$userEmail,$form){
     return !empty($userName) && !empty($userCity) && !empty($userPhoneNumber) && !empty($userEmail);
 }
-echo "<pre>";
+/* echo "<pre>";
 print_r($_POST);
 echo "Pst data";
 print_r($_SESSION);
 echo "session data";
 print_r($_SERVER);
-echo "</pre>";
+echo "</pre>"; */
 if(isset($_POST['form'])){
     /**
      * This section is to create a new person 
